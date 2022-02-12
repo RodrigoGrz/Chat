@@ -14,6 +14,8 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 - NodeJS
 - Express
 - Socket.io
+- MongoDB
+- Moongoose
 
 
 ## 😁 Como utilizar
