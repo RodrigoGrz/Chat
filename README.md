@@ -20,7 +20,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 😁 Como utilizar
 
-Antes de mais nada, para que os comandos a seguir funcione, é necessario ter o <a src='https://nodejs.org/en/' target='_blank'>node.js</a> instalado em sua máquina.
+Antes de mais nada, para que os comandos a seguir funcione, é necessario ter o <a href='https://nodejs.org/en/' target='_blank'>node.js</a> instalado em sua máquina.
 
 Após carregar o projeto em sua máquina é necessário fazer os seguintes comandos:
 
