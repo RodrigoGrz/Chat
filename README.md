@@ -30,10 +30,6 @@ Obs: Para que o comando acima funcione, é necessario ter o yarn em sua máquina
 
 `npm install`
 
-Para realizar os testes use o comando:
-
-`yarn test`
-
 Para rodar o projeto digite o comando:
 
 `yarn dev` ou `npm run dev`
