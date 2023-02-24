@@ -2,15 +2,17 @@
     Chat
 </h1>
 
-<br>
+## 💻 Sobre
+
+Chat é uma aplicação de conversas privadas entre as pessoas utilizando websocket para ter respostas em tempo real.
 
 ## 🚀 Tecnologias
 
-Esse projeto está sendo desenvolvido com as seguintes tecnologias:
+Esse projeto foi sendo desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-- Javascript (Typescript)
+- Typescript
 - NodeJS
 - Express
 - Socket.io
@@ -22,16 +24,10 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 Antes de mais nada, para que os comandos a seguir funcione, é necessario ter o <a href='https://nodejs.org/en/' target='_blank'>node.js</a> instalado em sua máquina.
 
-Após carregar o projeto em sua máquina é necessário fazer os seguintes comandos:
+Instale as dependências do projeto: `yarn install` | `npm install`
 
-`yarn install` - Esse comando irá instalar todas as dependência necessárias para que o projeto funcione.
+Você pode subir um container do mongo no docker com o comando: `docker run --name mongodb -p 27017:27017 -d -t mongo`
 
-Obs: Para que o comando acima funcione, é necessario ter o yarn em sua máquina, caso contrário utiliza o comando abaixo
+Para rodar o projeto digite o comando: `yarn dev` ou `npm run dev`
 
-`npm install`
-
-Para rodar o projeto digite o comando:
-
-`yarn dev` ou `npm run dev`
-
-O projeto irá rodar na porta: 3333
+O projeto irá rodar na porta: `3001`

@@ -1,7 +1,7 @@
 import "reflect-metadata";
 import express from "express";
-import path from "path";
-import { createServer } from "http";
+import path from "node:path";
+import { createServer } from "node:http";
 import { Server } from "socket.io";
 import mongoose from "mongoose";
 

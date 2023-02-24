@@ -1,6 +1,6 @@
 import mongoose, { Document, Schema } from "mongoose";
 import { User } from "./User";
-import { v4 as uuidv4 } from "uuid";
+import { randomUUID } from "node:crypto";
 
 type ChatRoom = Document & {
     idUsers: User[];
@@ -16,7 +16,7 @@ const ChatRoomSchema = new Schema({
     ],
     idChatRoom: {
         type: String,
-        default: uuidv4
+        default: randomUUID()
     }
 });
 
