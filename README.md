@@ -8,7 +8,7 @@ Chat é uma aplicação de conversas privadas entre as pessoas utilizando websoc
 
 ## 🚀 Tecnologias
 
-Esse projeto foi sendo desenvolvido com as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
